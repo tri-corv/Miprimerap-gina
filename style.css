@@ -189,3 +189,9 @@ h5 {
 form {
   margin: 20px;
 }
+
+.greeting {
+  margin: 50px;
+  text-align: center;
+  color: white;
+}
