@@ -32,11 +32,11 @@ p {
   padding: 10px;
 }
 
-.row {
+/*.row {
   display: flex;
   flex-wrap: wrap;
   margin: 10px;
-}
+}*/
 
 .column {
   flex: 1;
