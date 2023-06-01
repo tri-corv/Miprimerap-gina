@@ -32,12 +32,6 @@ p {
   padding: 10px;
 }
 
-/*.row {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 10px;
-}*/
-
 .column {
   flex: 1;
   padding: 10px;
@@ -77,7 +71,7 @@ p {
 .brand {
   display: flex;
   align-items: center;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
@@ -169,7 +163,7 @@ video {
 
 main {
   display: flex;
-  justify-content: center;
+  justify-content:left;
 }
 
 footer {
@@ -181,6 +175,7 @@ footer {
   color: cadetblue;
   text-align: center;
 }
+
 h5 {
   margin: 5px;
   padding: 0%;
@@ -195,3 +190,35 @@ form {
   text-align: center;
   color: white;
 }
+
+footer {
+  background-color: white;
+}
+
+footer h4,
+footer h5 {
+  color: cadetblue;
+}
+
+footer button {
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.service {
+  text-align: center;
+  margin: 20px;
+  width: 30%;
+  display: inline-block;
+} 
+
+
+
