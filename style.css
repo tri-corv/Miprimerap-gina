@@ -53,8 +53,7 @@ p {
 
 .container nav {
   display: flex;
-  padding: 15px;
-  height: 10px;
+  padding: 5px;
   margin-left: 10px;
   background-color: whitesmoke;
   color: cadetblue;
@@ -65,7 +64,7 @@ p {
 .navbar {
   display: flex;
   justify-content: left;
-  width: 100%;
+  width:auto;
 }
 
 .brand {
@@ -129,7 +128,7 @@ nav a:hover {
     font-size: 20px;
   }
 
-  .nav-links.nav-links-responsive {
+  .nav-links-responsive {
     position: absolute;
     display: flex;
     background-color: rgba(20, 20, 20, 0.95);
